@@ -7,7 +7,7 @@ on:
 jobs:
   foo:
     runs-on: ubuntu-latest
-    name: fooName
+    name: Ready For Review Determination
     steps:
     - name: label swapping
       uses: jinmayamashita/ready-for-review@1.0.0
