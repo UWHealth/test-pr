@@ -2,7 +2,7 @@ name: Pull Request Management
 
 on:
   pull_request:
-    types: [opened, ready_for_review, synchronize, reopened]
+    types: [opened, ready_for_review, synchronize, reopened, edited]
 
 jobs:
   foo:
